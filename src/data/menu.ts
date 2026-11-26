@@ -491,7 +491,7 @@ export const MENU: MenuItem[] = [
     price: 320,
     category: "desserts",
     diets: ["vegetarian", "halal"],
-    image: "/images/juices.jpg",
+    image: "/images/fruit-cup.jpg",
   },
 
   /* ------------------------------- DRINKS ------------------------------- */
@@ -504,7 +504,7 @@ export const MENU: MenuItem[] = [
     price: 250,
     category: "drinks",
     diets: ["vegetarian", "halal"],
-    image: "/images/juices.jpg",
+    image: "/images/passion-juice.jpg",
     sizes: [{ label: "300ml", delta: 0 }, { label: "500ml", delta: 70 }],
     popular: true,
   },
@@ -517,7 +517,7 @@ export const MENU: MenuItem[] = [
     price: 250,
     category: "drinks",
     diets: ["vegetarian", "halal"],
-    image: "/images/juices.jpg",
+    image: "/images/mango-juice.jpg",
     sizes: [{ label: "300ml", delta: 0 }, { label: "500ml", delta: 70 }],
   },
   {
@@ -529,7 +529,7 @@ export const MENU: MenuItem[] = [
     price: 280,
     category: "drinks",
     diets: ["vegetarian", "halal"],
-    image: "/images/juices.jpg",
+    image: "/images/ukwaju-juices.jpg",
   },
   {
     id: "issoti",
@@ -540,7 +540,7 @@ export const MENU: MenuItem[] = [
     price: 260,
     category: "drinks",
     diets: ["vegetarian", "halal"],
-    image: "/images/juices.jpg",
+    image: "/images/Hibiscus-juices.jpg",
   },
   {
     id: "chai-masala",
@@ -551,7 +551,7 @@ export const MENU: MenuItem[] = [
     price: 260,
     category: "drinks",
     diets: ["vegetarian", "halal"],
-    image: "/images/mandazi-chai.jpg",
+    image: "/images/chai-masala.jpg",
     sizes: [{ label: "Cup", delta: 0 }, { label: "Pot (2 cups)", delta: 140 }],
     popular: true,
   },
@@ -564,7 +564,7 @@ export const MENU: MenuItem[] = [
     price: 200,
     category: "drinks",
     diets: ["vegetarian", "halal"],
-    image: "/images/juices.jpg",
+    image: "/images/lime-soda.jpg",
   },
   {
     id: "soft-drink",
@@ -574,7 +574,7 @@ export const MENU: MenuItem[] = [
     price: 120,
     category: "drinks",
     diets: ["vegetarian", "halal"],
-    image: "/images/juices.jpg",
+    image: "/images/soft-drink.jpg",
   },
   {
     id: "water",
@@ -584,7 +584,7 @@ export const MENU: MenuItem[] = [
     price: 100,
     category: "drinks",
     diets: ["vegetarian", "halal"],
-    image: "/images/juices.jpg",
+    image: "/images/water.jpg",
     sizes: [{ label: "Still", delta: 0 }, { label: "Sparkling", delta: 20 }],
   },
 ];

@@ -143,7 +143,7 @@ export const GALLERY: GalleryItem[] = [
     alt: "Cup of coffee with latte art seen from above",
     caption: "Milk, poured",
     category: "coffee",
-    fallback: "/images/hero-cup.jpg",
+    fallback: "/images/coffee-cup.jpg",
   },
   {
     id: "g9",
