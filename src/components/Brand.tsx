@@ -67,8 +67,8 @@ export function Brand({
         <img
           src="/images/logo.png"
           alt="Chill & Chew"
-          width={36}
-          height={36}
+          width={50}
+          height={50}
           className={cn("object-contain", compact ? "h-8 w-8" : "h-9 w-9")}
           onError={() => setImgFailed(true)}
         />
