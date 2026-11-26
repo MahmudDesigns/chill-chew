@@ -352,7 +352,7 @@ export const MENU: MenuItem[] = [
     price: 550,
     category: "mains",
     diets: ["vegetarian", "spicy"],
-    image: "/images/biryani.jpg",
+    image: "/images/ndengu-curry.jpg",
   },
 
   /* ------------------------------- SNACKS ------------------------------- */
@@ -365,7 +365,7 @@ export const MENU: MenuItem[] = [
     price: 180,
     category: "snacks",
     diets: ["vegetarian"],
-    image: "/images/mandazi-chai.jpg",
+    image: "/images/Cardamom-mandazi.jpg",
     sizes: [{ label: "3 pieces", delta: 0 }, { label: "6 pieces", delta: 150 }],
     popular: true,
   },
@@ -378,7 +378,7 @@ export const MENU: MenuItem[] = [
     price: 220,
     category: "snacks",
     diets: ["halal", "spicy"],
-    image: "/images/mandazi-chai.jpg",
+    image: "/images/Beef-Samosas.jpg",
     sizes: [{ label: "3 pieces", delta: 0 }, { label: "6 pieces", delta: 180 }],
     popular: true,
   },
@@ -391,7 +391,7 @@ export const MENU: MenuItem[] = [
     price: 250,
     category: "snacks",
     diets: ["vegetarian", "spicy"],
-    image: "/images/mandazi-chai.jpg",
+    image: "/images/Viazi-Karai.jpg",
     addons: [{ label: "Chilli mayo", price: 50 }],
   },
   {
@@ -403,7 +403,7 @@ export const MENU: MenuItem[] = [
     price: 260,
     category: "snacks",
     diets: ["vegetarian", "spicy"],
-    image: "/images/mandazi-chai.jpg",
+    image: "/images/Spinach-Bhajia.jpg",
   },
   {
     id: "masala-fries",
@@ -414,7 +414,7 @@ export const MENU: MenuItem[] = [
     price: 300,
     category: "snacks",
     diets: ["vegetarian", "spicy"],
-    image: "/images/mandazi-chai.jpg",
+    image: "/images/Masala-Fries.jpg",
     addons: [{ label: "Cheese sauce", price: 80 }],
   },
   {
@@ -426,7 +426,7 @@ export const MENU: MenuItem[] = [
     price: 450,
     category: "snacks",
     diets: ["halal", "spicy"],
-    image: "/images/mandazi-chai.jpg",
+    image: "/images/Peri-Peri-Wings.jpg",
     sizes: [{ label: "6 pieces", delta: 0 }, { label: "12 pieces", delta: 380 }],
   },
 
