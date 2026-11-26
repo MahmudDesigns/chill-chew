@@ -56,7 +56,7 @@ export function MenuBoard({ items = MENU }: { items?: MenuItem[] }) {
   const shown = preview && filtered.some((f) => f.id === preview.id) ? preview : filtered[0];
 
   return (
-    <div className="grid gap-8 lg:grid-cols-12 lg:gap-10">
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-10">
       {/* ---------------- controls ---------------- */}
       <div className="lg:col-span-12">
         <div className="flex flex-col gap-4">
@@ -162,7 +162,7 @@ export function MenuBoard({ items = MENU }: { items?: MenuItem[] }) {
       </div>
 
       {/* ---------------- list ---------------- */}
-      <div className="lg:col-span-7 xl:col-span-8">
+      <div className="min-w-0 lg:col-span-7 xl:col-span-8">
         {filtered.length === 0 ? (
           <div className="card rounded-2xl px-6 py-14 text-center">
             <p className="font-script text-2xl">Nothing matches that</p>
