@@ -440,7 +440,7 @@ export const MENU: MenuItem[] = [
     price: 380,
     category: "desserts",
     diets: ["vegetarian"],
-    image: "/images/dessert.jpg",
+    image: "/images/Coconut&Lime-Cake.jpg",
     popular: true,
   },
   {
@@ -452,7 +452,7 @@ export const MENU: MenuItem[] = [
     price: 400,
     category: "desserts",
     diets: ["vegetarian"],
-    image: "/images/dessert.jpg",
+    image: "/images/chocolate-cake.jpg",
   },
   {
     id: "passion-cheesecake",
@@ -463,7 +463,7 @@ export const MENU: MenuItem[] = [
     price: 450,
     category: "desserts",
     diets: ["vegetarian"],
-    image: "/images/dessert.jpg",
+    image: "/images/Passion-Fruit-Cheesecake.jpg",
   },
   {
     id: "ice-cream",
@@ -474,7 +474,7 @@ export const MENU: MenuItem[] = [
     price: 250,
     category: "desserts",
     diets: ["vegetarian"],
-    image: "/images/dessert.jpg",
+    image: "/images/ice-cream.jpg",
     sizes: [{ label: "2 scoops", delta: 0 }, { label: "3 scoops", delta: 90 }],
     addons: [
       { label: "Chocolate sauce", price: 60 },
