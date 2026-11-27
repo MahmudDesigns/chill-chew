@@ -22,14 +22,14 @@ export const BUSINESS = {
   },
 
   phone: {
-    display: "+254 712 345 678",
-    raw: "+254712345678",
-    tel: "+254712345678",
+    display: "+254 718 064666",
+    raw: "+254718064666",
+    tel: "+254718064666",
   },
   whatsapp: {
-    display: "+254 712 345 678",
+    display: "+254 718 064666",
     /* digits only, country code first — used for wa.me/<number> */
-    raw: "254712345678",
+    raw: "254718064666",
   },
   email: "hello@chillandchew.co.ke",
   reservationsEmail: "book@chillandchew.co.ke",
@@ -43,9 +43,9 @@ export const BUSINESS = {
   },
 
   socials: [
-    { label: "Instagram", href: "https://instagram.com/chillandchewmombasa" },
-    { label: "Facebook", href: "https://facebook.com/chillandchewmombasa" },
-    { label: "TikTok", href: "https://tiktok.com/@chillandchewmombasa" },
+    { label: "Instagram", href: "https://instagram.com/chill.chew" },
+    { label: "Facebook", href: "#" },
+    { label: "TikTok", href: "#" },
   ] as const,
 
   /* Opening hours — 24h, minutes from midnight are derived automatically.

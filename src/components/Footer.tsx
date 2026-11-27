@@ -149,7 +149,7 @@ export function Footer() {
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-[var(--line)] py-6 sm:flex-row">
           <p className="text-xs text-[var(--fg-faint)]">{FOOTER_COPY}</p>
           <a
-            href="https://github.com/mahmuddesigns"
+            href="https://md-esigns.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="label inline-flex items-center gap-1 text-[var(--fg-faint)] transition-colors hover:text-[var(--accent)]"
