@@ -188,7 +188,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 2.05 }}
-              className="absolute -bottom-6 left-0 rounded-2xl border border-[color-mix(in_srgb,var(--flame)_45%,transparent)] bg-[var(--bg)] px-4 py-3 shadow-[0_24px_50px_-30px_rgba(0,0,0,0.9)] sm:left-4"
+              className="absolute -bottom-6 right-0 rounded-2xl border border-[color-mix(in_srgb,var(--flame)_45%,transparent)] bg-[var(--bg)] px-4 py-3 shadow-[0_24px_50px_-30px_rgba(0,0,0,0.9)] sm:right-4"
             >
               <p className="label text-[var(--fg-faint)]">Kenyan AA pour-over</p>
               <p className="tnum mt-1 text-xl font-semibold text-[var(--accent)]">
